@@ -43,5 +43,15 @@ COMMON ACTOR BASE TYPES : Ortak aktör taban tipleri
 
 UML diyagramı url : http://actor-framework.readthedocs.io/en/stable/_images/actor_types.png
 
-Class local_actor
+### Class local_actor
+Kullanıcı tarafından oluşturulan tüm aktörlerin köküdür. (Kalıtım)
+Tüm ortak işlemler tanımlıdır. Ama kütüphanenin kullanıcıları genellikle
+bu class'dan kalıtım yolu ile direkt tanımlama yapmazlar onun yerine var olanları kullanırlar.
+
+### Class scheduled_actor
+Statik ve dinamik olarak yazılmış event-based aktörler ve broker'ları içerir.
+
+### Class blocking 
+
+Bu aktör genellikle kendi thread'inde yer alır/tutulur
 */
