@@ -18,4 +18,6 @@ behavior do_math{
 int main()
 {
 	// caller side : send(math_actor, add_atom::value, 1, 2)
+	// Atom sabitleri 'value' adında bir statik üye tanımlarlar.
+	// Bu value'nun bir tipi yoktur. tıpkı, atom_value gibi.
 }
