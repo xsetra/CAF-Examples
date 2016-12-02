@@ -4,3 +4,4 @@ hello_world.o: hello_world.cpp
 	g++ -c hello_world.cpp -std=c++11
 clean: 
 	rm -f *.o hello_world
+
